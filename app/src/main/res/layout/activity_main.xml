@@ -87,6 +87,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="90dp"
                 style="@style/Widget.AppCompat.Button.Colored"
+                android:onClick="Aceptar"
                 android:text="Aceptar" />
 
             <TextView

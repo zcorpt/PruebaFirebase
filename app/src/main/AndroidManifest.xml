@@ -40,7 +40,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AddMateria_Prof"></activity>
+        <activity android:name=".AddMateria_Prof" />
+        <activity android:name=".LectorQR"></activity>
     </application>
 
 </manifest>

@@ -18,4 +18,10 @@ public class MainActivity extends AppCompatActivity {
         explicit_intent = new Intent(this, Registro.class);
         startActivity(explicit_intent);
     }
+
+    public void Aceptar (View view) {
+        Intent explicit_intent;
+        explicit_intent = new Intent(this, LectorQR.class);
+        startActivity(explicit_intent);
+    }
 }
