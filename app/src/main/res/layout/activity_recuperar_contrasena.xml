@@ -73,7 +73,7 @@
                     android:id="@+id/pass_recuperar_pass"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="No. de Expediente"
+                    android:hint="No. de Control/No. de Profesor "
                     android:inputType="textAutoComplete"
                     android:maxLines="1"
                     android:singleLine="true" />
