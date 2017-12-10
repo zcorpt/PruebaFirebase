@@ -41,7 +41,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AddMateria_Prof" />
-        <activity android:name=".LectorQR"></activity>
+        <activity android:name=".LectorQR" />
+        <activity android:name=".RecuperarContrasena"></activity>
     </application>
 
 </manifest>
