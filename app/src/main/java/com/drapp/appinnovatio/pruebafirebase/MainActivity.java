@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
         explicit_intent = new Intent(this, LectorQR.class);
         startActivity(explicit_intent);
     }
+
+    public void Contraseña (View view) {
+        Intent explicit_intent;
+        explicit_intent = new Intent(this, RecuperarContrasena.class);
+        startActivity(explicit_intent);
+    }
 }
