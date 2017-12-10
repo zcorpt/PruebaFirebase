@@ -102,31 +102,64 @@
                     android:maxLines="1"
                     android:singleLine="true"/>
 
-                <Button
-                    android:id="@+id/RegistrarMateria"
-                    android:layout_width="wrap_content"
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/correo"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/pass"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    style="@style/Widget.AppCompat.Button.Colored"
-                    android:onClick="RegistrarMateria"
-                    android:text="Registrar" />
-
-
-                    <android.support.design.widget.FloatingActionButton
-                        android:id="@+id/floatingActionButton_Add"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="end"
-                        android:layout_marginTop="65dp"
-                        android:layout_weight="1"
-                        android:clickable="true"
-                        android:src="@android:drawable/ic_input_add"
-                        app:srcCompat="@android:drawable/ic_menu_add" />
-
+                    android:hint="Correo"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
 
             </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/Contraseña"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/RegistrarMateria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pass"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:onClick="RegistrarMateria"
+                android:text="Registrar" />
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/floatingActionButton_Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="65dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@android:drawable/ic_input_add"
+                app:srcCompat="@android:drawable/ic_menu_add" />
 
         </LinearLayout>
 
