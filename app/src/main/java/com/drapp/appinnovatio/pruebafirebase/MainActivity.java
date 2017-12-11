@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(explicit_intent);
     }
 
+
     public void Contraseña (View view) {
         Intent explicit_intent;
         explicit_intent = new Intent(this, RecuperarContrasena.class);
