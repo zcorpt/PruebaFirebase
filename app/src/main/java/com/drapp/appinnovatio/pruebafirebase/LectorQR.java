@@ -106,6 +106,7 @@ public class LectorQR extends AppCompatActivity {
 
                     // obtenemos el token
                     token = barcodes.valueAt(0).displayValue.toString();
+                    //Toast.makeText(getApplicationContext(), token, Toast.LENGTH_SHORT).show();
 
                     // verificamos que el token anterior no se igual al actual
                     // esto es util para evitar multiples llamadas empleando el mismo token

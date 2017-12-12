@@ -7,6 +7,8 @@ import android.view.View;
 
 public class Registro extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
