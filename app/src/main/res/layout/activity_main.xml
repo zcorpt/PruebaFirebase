@@ -76,7 +76,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/password"
                 android:layout_gravity="end"
-                android:onClick="Registar"
                 android:text="Registrar" />
 
             <Button
@@ -87,7 +86,6 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="90dp"
                 style="@style/Widget.AppCompat.Button.Colored"
-                android:onClick="Aceptar"
                 android:text="Aceptar" />
 
            <!-- <Button
@@ -108,8 +106,17 @@
                 android:layout_below="@+id/boton1"
                 android:layout_gravity="center"
                 android:layout_marginTop="13dp"
-                android:onClick="Contraseña"
                 android:text="¿Ha olvidado su contraseña?" />
+
+            <ProgressBar
+                android:id="@+id/progressbar2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true">
+
+            </ProgressBar>
         </LinearLayout>
 
     </ScrollView>
