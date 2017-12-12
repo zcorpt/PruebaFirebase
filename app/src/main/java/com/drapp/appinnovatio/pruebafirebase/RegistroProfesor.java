@@ -72,6 +72,7 @@ public class RegistroProfesor extends AppCompatActivity {
         String NoCtrl = Matricula.getText().toString();
         DatabaseReference noctrl = Prueba.child(NoCtrl);
 
+
      /*Hijo de No. de Ctrl*/
         String nombre = Nombre.getText().toString();
         DatabaseReference nombrebd = noctrl.child("Nombre");
