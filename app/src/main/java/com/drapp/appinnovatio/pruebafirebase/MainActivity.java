@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         edithtextContraseña = (EditText) findViewById(R.id.pass);
         progressBar = (ProgressBar) findViewById(R.id.progressbar2);
 
+        findViewById(R.id.texto4).setOnClickListener(this);
         findViewById(R.id.registrar).setOnClickListener(this);
         findViewById(R.id.aceptar).setOnClickListener(this);
     }
@@ -83,6 +84,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
 
+    public void Contraseña () {
+        Intent explicit_intent;
+        explicit_intent = new Intent(this, RecuperarContrasena.class);
+        startActivity(explicit_intent);
+    }
 
         @Override
         public void onClick(View v) {
@@ -93,6 +99,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 case R.id.aceptar:
                     userLogin();
+                    break;
+                case R.id.texto4:
+                    Contraseña();
                     break;
 
             }

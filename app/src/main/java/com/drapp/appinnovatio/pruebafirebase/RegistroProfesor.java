@@ -175,6 +175,7 @@ public class RegistroProfesor extends AppCompatActivity implements View.OnClickL
 
     }
 
+
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -182,7 +183,9 @@ public class RegistroProfesor extends AppCompatActivity implements View.OnClickL
                 registerUser();
                 RegistrarMateria();
 
+
                 break;
+
 
          /*   case R.id.login2:
                 startActivity(new Intent(this, Inicio.class));
